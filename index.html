@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Farmer Store</h1>
+        <p>Solusi terbaik untuk kebutuhan pertanian Anda.</p>
+        <a href="#contact" class="btn-primary">Hubungi Kami</a>
+    </header>
+    
+    <section id="services">
+        <h2>Layanan Kami</h2>
+        <div class="service">
+            <h3>Service 1</h3>
+            <p>Deskripsi singkat tentang layanan ini.</p>
+        </div>
+        <div class="service">
+            <h3>Service 2</h3>
+            <p>Deskripsi singkat tentang layanan ini.</p>
+        </div>
+        <div class="service">
+            <h3>Service 3</h3>
+            <p>Deskripsi singkat tentang layanan ini.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <form action="process.php" method="POST">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="btn-primary">Kirim</button>
+        </form>
+    </section>
+</body>
+</html>
